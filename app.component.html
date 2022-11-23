@@ -1,0 +1,10 @@
+<div class="jumbotron text-center">
+    <button class="btn btn-success btn-lg" (click)="tirarDados()">Tirar Dados</button>
+    <br>
+    <img class="img" [src]="dadoIzquierda">
+    <img class="img" [src]="dadoDerecha">
+    <h1 *ngIf="numero1 === numero2"><span class="badge badge-success"> GANASTE </span></h1>
+</div>
+
+<!-- [src] Es Un Property Binding Eso  Nos sirve para Que sea Dinamico  -->
+<!-- *ngIf: Directivas Eso Nos Sirve  Para Crear Una Condicion -->
